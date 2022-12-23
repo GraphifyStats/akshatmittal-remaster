@@ -39,7 +39,7 @@ YT.sharing = {
   },
   getEncodedURL: function () {
     return encodeURIComponent(
-      baseURL + "/compare/#!/" + YT.live.vs1 + "$$" + YT.live.vs2
+      baseURL + "compare/#!/" + YT.live.vs1 + "$$" + YT.live.vs2
     );
   },
   compare: function () {
