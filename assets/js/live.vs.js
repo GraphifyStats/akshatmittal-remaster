@@ -27,7 +27,7 @@ YT.live = {
     YT.query.begin();
     this.timer = setInterval(function (e) {
       YT.live.update();
-    }, 10000);
+    }, 2000);
     YT.live.update();
   },
   stop: function () {
